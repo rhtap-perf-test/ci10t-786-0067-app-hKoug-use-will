@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-acdr
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0067-tenant/ci10t-786-0067-app/devfile-sample-acdr@sha256:54c289e649cb2df44134ff00bd5e499114b232cd6af00f0eb6b3f2f5234cdd7f
         name: my-nodejs
         ports:
         - containerPort: 3001
